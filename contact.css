@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:darkgreen;
+}
+.contact{
+    text-align: center;
+    margin-top: 40px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.con{
+    font-size: 20px;
+    font-size: 60px;
+    background-color:coral;
+}
+.emi{
+    font-size: 20px;
+    font-size: 60px;
+    background-color:coral;
+}
+.tel{
+    font-size: 20px;
+    font-size: 60px;
+    background-color:coral;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.condct{
+    background-color: coral;
+    padding: 20px;
+    opacity: 50%;
+    margin-top: 40px;
+}
+p{
+    width: 700px;
+    margin: 30px auto;
+}

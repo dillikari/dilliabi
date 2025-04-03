@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(blue,orange);
+    width: 100%;
+    height:100vh;
+} 
+header{
+    text-align: center;
+    padding: 20px;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    object-fit:cover ;
+    animation-name: disco;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes disco {
+    10%{
+        background-color: aqua;
+    }
+    20%{
+        background-color: black;
+    }
+    30%{
+        background-color: chartreuse;
+    }
+    40%{
+        background-color: brown;
+    }
+    50%{
+        background-color: chocolate;
+    }
+}
+p{
+    width: 700px;
+    margin: 20px auto;
+}
